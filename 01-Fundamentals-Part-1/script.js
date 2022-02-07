@@ -19,16 +19,21 @@
 // console.log(firstName);
 
 // Variable name conventions
-let karan_chandekar = "KC";
-let $function = 18;
+// let karan_chandekar = "KC";
+// let $function = 18;
 
-let person = "Karan";
-let PI = 3.1415;
+// let person = "Karan";
+// let PI = 3.1415;
 
-let myFirstJob = "Coder";
-let myCurrentJob = "Developer";
+// let myFirstJob = "Coder";
+// let myCurrentJob = "Developer";
 
-let job1 = "programmer";
-let job2 = "developer";
+// let job1 = "programmer";
+// let job2 = "developer";
 
-console.log(myFirstJob);
+// console.log(myFirstJob);
+
+////////////////////////////////////
+// Data Types
+let javascriptIsFun = true;
+console.log(javascriptIsFun);
