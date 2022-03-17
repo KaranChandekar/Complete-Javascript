@@ -22,3 +22,6 @@ console.log(friends);
 
 console.log(friends.indexOf("Amit"));
 console.log(friends.indexOf("Oreo"));
+
+console.log(friends.includes("Amit"));
+console.log(friends.includes("Oreo"));
