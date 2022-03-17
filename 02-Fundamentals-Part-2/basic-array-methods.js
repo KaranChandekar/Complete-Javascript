@@ -19,3 +19,6 @@ console.log(friends);
 
 friends.shift(); // First
 console.log(friends);
+
+console.log(friends.indexOf("Amit"));
+console.log(friends.indexOf("Oreo"));
