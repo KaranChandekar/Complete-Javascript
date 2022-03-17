@@ -25,3 +25,7 @@ console.log(friends.indexOf("Oreo"));
 
 console.log(friends.includes("Amit"));
 console.log(friends.includes("Oreo"));
+
+if (friends.includes("Amit")) {
+  console.log("You have a friend called Amit");
+}
