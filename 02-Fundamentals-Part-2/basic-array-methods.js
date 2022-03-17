@@ -1,6 +1,8 @@
 ///////////////////////////////////////
 // Basic Array Operations (Methods)
 
+"use strict";
+
 const friends = ["Vikrant", "Amit", "Dip"];
 
 // Add elements
