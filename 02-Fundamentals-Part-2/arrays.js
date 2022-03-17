@@ -1,6 +1,8 @@
 ///////////////////////////////////////
 // Introduction to Arrays
 
+"use strict";
+
 const friend1 = "Vikrant";
 const friend2 = "Amit";
 const friend3 = "Dip";
