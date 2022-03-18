@@ -3,18 +3,18 @@
 
 "use strict";
 
-const jonasArray = [
-  "Jonas",
-  "Schmedtmann",
-  2037 - 1991,
-  "teacher",
-  ["Michael", "Peter", "Steven"],
+const karanArray = [
+  "Karan",
+  "Chandekar",
+  2022 - 2003,
+  "student",
+  ["Vikrant", "Dip", "Amit"],
 ];
 
-const jonas = {
-  firstName: "Jonas",
-  lastName: "Schmedtmann",
-  age: 2037 - 1991,
-  job: "teacher",
-  friends: ["Michael", "Peter", "Steven"],
+const karan = {
+  firstName: "Karan",
+  lastName: "Chandekar",
+  age: 2022 - 2003,
+  job: "student",
+  friends: ["Vikrant", "Dip", "Amit"],
 };
