@@ -1,6 +1,8 @@
 ///////////////////////////////////////
 // Introduction to Objects
 
+"use strict";
+
 const jonasArray = [
   "Jonas",
   "Schmedtmann",
