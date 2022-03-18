@@ -16,6 +16,8 @@ HINT: Remember that an array needs a value in each position, and that value can 
 GOOD LUCK 😀
 */
 
+"use strict";
+
 const calcTip = function (bill) {
   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 };
