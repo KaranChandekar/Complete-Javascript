@@ -15,6 +15,6 @@ const karan = {
   firstName: "Karan",
   lastName: "Chandekar",
   age: 2022 - 2003,
-  job: "student",
+  occupation: "student",
   friends: ["Vikrant", "Dip", "Amit"],
 };
