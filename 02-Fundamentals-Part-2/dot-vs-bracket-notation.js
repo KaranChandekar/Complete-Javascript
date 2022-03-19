@@ -1,6 +1,8 @@
 ///////////////////////////////////////
 // Dot vs. Bracket Notation
 
+"use strict";
+
 const karan = {
   firstName: "Karan",
   lastName: "Chandekar",
