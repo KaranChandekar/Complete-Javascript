@@ -7,7 +7,7 @@ const karan = {
   firstName: "Karan",
   lastName: "Chandekar",
   age: 2022 - 2003,
-  job: "student",
+  occupation: "student",
   friends: ["Vikrant", "Amit", "Dip"],
 };
 console.log(karan);
@@ -22,14 +22,14 @@ console.log(karan["last" + nameKey]);
 // console.log(karan.'last' + nameKey)
 
 const interestedIn = prompt(
-  "What do you want to know about Karan? Choose between firstName, lastName, age, job, and friends"
+  "What do you want to know about Karan? Choose between firstName, lastName, age, occupation, and friends"
 );
 
 if (karan[interestedIn]) {
   console.log(karan[interestedIn]);
 } else {
   console.log(
-    "Wrong request! Choose between firstName, lastName, age, job, and friends"
+    "Wrong request! Choose between firstName, lastName, age, occupation, and friends"
   );
 }
 
