@@ -34,3 +34,9 @@ if (karan[interestedIn]) {
 karan.location = "Maharashtra";
 karan["twitter"] = "@karan_chandekar";
 console.log(karan);
+
+// Challenge
+// "Karan has 3 friends, and his best friend is called Vikrant"
+console.log(
+  `${karan.firstName} has ${karan.friends.length} friends, and his best friend is called ${karan.friends[0]}`
+);
