@@ -1,6 +1,8 @@
 ///////////////////////////////////////
 // Object Methods
 
+"use strict";
+
 const karan = {
   firstName: "Karan",
   lastName: "Chandekar",
