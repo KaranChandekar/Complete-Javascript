@@ -4,12 +4,18 @@
 const karan = {
   firstName: "Karan",
   lastName: "Chandekar",
-  birthYeah: 2003,
+  birthYear: 2003,
   occupation: "student",
   friends: ["Vikrant", "Amit", "Dip"],
   hasDriversLicense: true,
 
-  calcAge: function (birthYeah) {
-    return 2037 - birthYeah;
-  }
+  // calcAge: function (birthYear) {
+  //   return 2022 - birthYear;
+  // },
+
+  calcAge: function () {
+    return 2022 - this.birthYear;
+  },
 };
+
+console.log(karan.calcAge());
