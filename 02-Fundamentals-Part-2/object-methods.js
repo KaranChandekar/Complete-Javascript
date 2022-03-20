@@ -13,9 +13,16 @@ const karan = {
   //   return 2022 - birthYear;
   // },
 
+  // calcAge: function () {
+  //   console.log(this);
+  //   return 2022 - this.birthYear;
+  // },
+
   calcAge: function () {
-    return 2022 - this.birthYear;
+    this.age = 2022 - this.birthYear;
+    return this.age;
   },
 };
 
 console.log(karan.calcAge());
+console.log(karan.age);
