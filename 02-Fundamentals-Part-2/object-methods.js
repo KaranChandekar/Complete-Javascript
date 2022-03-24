@@ -28,3 +28,8 @@ const karan = {
 
 console.log(karan.calcAge());
 console.log(karan.age);
+
+// Challenge
+// "Karan is a 19 year old student and he has a driver's license"
+
+console.log(karan["firstName"] + " is a " + karan["age"] + " year old " + karan["occupation"] + " and he has ")
