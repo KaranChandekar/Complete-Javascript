@@ -1,29 +1,29 @@
 ///////////////////////////////////////
 // Looping Arrays, Breaking and Continuing
 
-const jonas = [
-  "Jonas",
-  "Schmedtmann",
-  2037 - 1991,
-  "teacher",
-  ["Michael", "Peter", "Steven"],
+const karan = [
+  "karan",
+  "Chandekar",
+  2022 - 2003,
+  "student",
+  ["Vikrant", "Amit", "Dip"],
   true,
 ];
 const types = [];
 
-// console.log(jonas[0])
-// console.log(jonas[1])
+// console.log(karan[0])
+// console.log(karan[1])
 // ...
-// console.log(jonas[4])
-// jonas[5] does NOT exist
+// console.log(karan[4])
+// karan[5] does NOT exist
 
-for (let i = 0; i < jonas.length; i++) {
-  // Reading from jonas array
-  console.log(jonas[i], typeof jonas[i]);
+for (let i = 0; i < karan.length; i++) {
+  // Reading from karan array
+  console.log(karan[i], typeof karan[i]);
 
   // Filling types array
-  // types[i] = typeof jonas[i];
-  types.push(typeof jonas[i]);
+  // types[i] = typeof karan[i];
+  types.push(typeof karan[i]);
 }
 
 console.log(types);
@@ -38,15 +38,15 @@ console.log(ages);
 
 // continue and break
 console.log("--- ONLY STRINGS ---");
-for (let i = 0; i < jonas.length; i++) {
-  if (typeof jonas[i] !== "string") continue;
+for (let i = 0; i < karan.length; i++) {
+  if (typeof karan[i] !== "string") continue;
 
-  console.log(jonas[i], typeof jonas[i]);
+  console.log(karan[i], typeof karan[i]);
 }
 
 console.log("--- BREAK WITH NUMBER ---");
-for (let i = 0; i < jonas.length; i++) {
-  if (typeof jonas[i] === "number") break;
+for (let i = 0; i < karan.length; i++) {
+  if (typeof karan[i] === "number") break;
 
-  console.log(jonas[i], typeof jonas[i]);
+  console.log(karan[i], typeof karan[i]);
 }
