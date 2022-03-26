@@ -1,6 +1,8 @@
 ///////////////////////////////////////
 // Looping Arrays, Breaking and Continuing
 
+"use strict";
+
 const karan = [
   "karan",
   "Chandekar",
