@@ -1,6 +1,8 @@
 ////////////////////////////////////
 // Functions calling other functions
 
+"use strict";
+
 function cutFruitPieces(fruit) {
   return fruit * 4;
 }
