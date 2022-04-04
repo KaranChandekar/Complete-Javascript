@@ -1,6 +1,8 @@
 ///////////////////////////////////////
 // Iteration: The for Loop
 
+"use strict";
+
 // console.log("Lifting weights repetition 1 🏋️‍♀️");
 // console.log("Lifting weights repetition 2 🏋️‍♀️");
 // console.log("Lifting weights repetition 3 🏋️‍♀️");
