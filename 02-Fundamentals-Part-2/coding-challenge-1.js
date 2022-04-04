@@ -21,6 +21,8 @@ HINT: To check if number A is at least double number B, check for A >= 2 * B. Ap
 GOOD LUCK 😀
 */
 
+"use strict";
+
 const calcAverage = (a, b, c) => (a + b + c) / 3;
 console.log(calcAverage(3, 4, 5));
 
