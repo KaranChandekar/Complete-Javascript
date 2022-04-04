@@ -1,6 +1,8 @@
 ///////////////////////////////////////
 // Looping Backwards and Loops in Loops
 
+"use strict";
+
 const karan = [
   "Karan",
   "Chandekar",
