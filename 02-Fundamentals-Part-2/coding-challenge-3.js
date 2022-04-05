@@ -13,6 +13,8 @@ TEST DATA: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.9
 GOOD LUCK 😀
 */
 
+"use strict";
+
 const mark = {
   fullName: "Mark Miller",
   mass: 78,
