@@ -1,5 +1,8 @@
 ///////////////////////////////////////
 // Debugging with the Console and Breakpoints
+
+"use strict";
+
 const measureKelvin = function () {
   const measurement = {
     type: "temp",
