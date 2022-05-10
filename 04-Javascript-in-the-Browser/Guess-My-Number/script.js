@@ -13,5 +13,7 @@ checkBtn.addEventListener('click', function () {
 
   if (!guess) {
     message.textContent = '⛔ No number!';
+  } else if (guess === secretNumber) {
+    message.textContent = '🎉 Correct Number!';
   }
 });
