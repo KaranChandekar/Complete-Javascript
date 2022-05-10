@@ -7,6 +7,8 @@ const message = document.querySelector('.message');
 const secretNumber = Math.floor(Math.random() * 20) + 1;
 document.querySelector('.number').textContent = secretNumber;
 
+let score = 20;
+
 checkBtn.addEventListener('click', function () {
   const guess = Number(guessInput.value);
   console.log(guess, typeof guess);
@@ -17,7 +19,9 @@ checkBtn.addEventListener('click', function () {
     message.textContent = '🎉 Correct Number!';
   } else if (guess > secretNumber) {
     message.textContent = '📈 Too high!';
+    score--;
   } else if (guess < secretNumber) {
     message.textContent = '📉 Too low!';
+    score--;
   }
 });
