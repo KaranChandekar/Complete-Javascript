@@ -18,12 +18,22 @@ checkBtn.addEventListener('click', function () {
   } else if (guess === secretNumber) {
     message.textContent = '🎉 Correct Number!';
   } else if (guess > secretNumber) {
-    message.textContent = '📈 Too high!';
-    score--;
-    document.querySelector('.score').textContent = score;
+    if (score > 1) {
+      message.textContent = '📈 Too high!';
+      score--;
+      document.querySelector('.score').textContent = score;
+    } else {
+      message.textContent = '💥 You lost the game!';
+      document.querySelector('.score').textContent = 0;
+    }
   } else if (guess < secretNumber) {
-    message.textContent = '📉 Too low!';
-    score--;
-    document.querySelector('.score').textContent = score;
+    if (score > 1) {
+      message.textContent = '📉 Too low!';
+      score--;
+      document.querySelector('.score').textContent = score;
+    } else {
+      message.textContent = '💥 You lost the game!';
+      document.querySelector('.score').textContent = 0;
+    }
   }
 });
