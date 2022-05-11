@@ -5,21 +5,21 @@ const guessInput = document.querySelector('.guess');
 const message = document.querySelector('.message');
 
 const secretNumber = Math.floor(Math.random() * 20) + 1;
-document.querySelector('.number').textContent = secretNumber;
 
 let score = 20;
 
 checkBtn.addEventListener('click', function () {
   const guess = Number(guessInput.value);
   console.log(guess, typeof guess);
-
+  
   // When there is no input
   if (!guess) {
     message.textContent = '⛔ No number!';
-
+    
     // When player wins
   } else if (guess === secretNumber) {
     message.textContent = '🎉 Correct Number!';
+    document.querySelector('.number').textContent = secretNumber;
     document.querySelector('body').style.backgroundColor = '#60b347';
     document.querySelector('.number').style.width = '30rem';
 
