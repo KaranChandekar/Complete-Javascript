@@ -5,9 +5,9 @@ const guessInput = document.querySelector('.guess');
 const message = document.querySelector('.message');
 const again = document.querySelector('.again');
 
-const secretNumber = Math.floor(Math.random() * 20) + 1;
-
+let secretNumber = Math.floor(Math.random() * 20) + 1;
 let score = 20;
+let highscore = 0;
 
 checkBtn.addEventListener('click', function () {
   const guess = Number(guessInput.value);
@@ -23,6 +23,11 @@ checkBtn.addEventListener('click', function () {
     document.querySelector('.number').textContent = secretNumber;
     document.querySelector('body').style.backgroundColor = '#60b347';
     document.querySelector('.number').style.width = '30rem';
+    
+    if (score > highscore) {
+      highscore = score;
+      document.querySelector('.highscore').textContent = highscore;
+    }
 
     // When guess is too hight
   } else if (guess > secretNumber) {
