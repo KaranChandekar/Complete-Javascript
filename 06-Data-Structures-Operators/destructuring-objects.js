@@ -1,0 +1,25 @@
+'use strict';
+
+///////////////////////////////////////
+// Destructuring Objects
+restaurant.orderDelivery({
+  time: '22:30',
+  address: 'Via del Sole, 21',
+  mainIndex: 2,
+  starterIndex: 2,
+});
+
+restaurant.orderDelivery({
+  address: 'Via del Sole, 21',
+  starterIndex: 1,
+});
+
+const { name, openingHours, categories } = restaurant;
+console.log(name, openingHours, categories);
+
+const {
+  name: restaurantName,
+  openingHours: hours,
+  categories: tags,
+} = restaurant;
+console.log(restaurantName, hours, tags);
