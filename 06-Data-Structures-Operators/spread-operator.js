@@ -29,3 +29,14 @@ const letters = [...str, ' ', 'S.'];
 console.log(letters);
 console.log(...str);
 // console.log(`${...str} Schmedtmann`);
+
+// Real-world example
+const ingredients = [
+  // prompt("Let's make pasta! Ingredient 1?"),
+  // prompt('Ingredient 2?'),
+  // prompt('Ingredient 3'),
+];
+console.log(ingredients);
+
+restaurant.orderPasta(ingredients[0], ingredients[1], ingredients[2]);
+restaurant.orderPasta(...ingredients);
