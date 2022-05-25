@@ -24,11 +24,11 @@ const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 console.log(menu);
 
 // Iterables: arrays, strings, maps, sets. NOT objects
-const str = 'Jonas';
+const str = 'Karan';
 const letters = [...str, ' ', 'S.'];
 console.log(letters);
 console.log(...str);
-// console.log(`${...str} Schmedtmann`);
+// console.log(`${...str} Chandekar`);
 
 // Real-world example
 const ingredients = [
