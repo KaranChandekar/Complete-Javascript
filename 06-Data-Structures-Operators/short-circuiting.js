@@ -46,3 +46,10 @@ console.log(0 && 'Jonas');
 console.log(7 && 'Jonas');
 
 console.log('Hello' && 23 && null && 'jonas');
+
+// Practical example
+if (restaurant.orderPizza) {
+  restaurant.orderPizza('mushrooms', 'spinach');
+}
+
+restaurant.orderPizza && restaurant.orderPizza('mushrooms', 'spinach');
