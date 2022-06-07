@@ -10,3 +10,5 @@ const ordersSet = new Set([
   'Pizza',
 ]);
 console.log(ordersSet);
+
+console.log(new Set('Jonas'));
