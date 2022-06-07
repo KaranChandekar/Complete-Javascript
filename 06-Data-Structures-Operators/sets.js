@@ -19,3 +19,5 @@ console.log(ordersSet.has('Bread'));
 ordersSet.add('Garlic Bread');
 ordersSet.add('Garlic Bread');
 ordersSet.delete('Risotto');
+ordersSet.clear();
+console.log(ordersSet);
