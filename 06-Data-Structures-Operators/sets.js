@@ -12,3 +12,5 @@ const ordersSet = new Set([
 console.log(ordersSet);
 
 console.log(new Set('Jonas'));
+
+console.log(ordersSet.size);
