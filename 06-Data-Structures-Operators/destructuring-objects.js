@@ -1,3 +1,5 @@
+///////////////////////////////////////
+// Destructuring Objects
 'use strict';
 
 const restaurant = {
@@ -25,10 +27,12 @@ const restaurant = {
   order: function (starterIndex, mainIndex) {
     return this.starterMenu[starterIndex], this.mainMenu[mainIndex];
   },
+
+  orderDelivery: function (obj) {
+    console.log(obj);
+  },
 };
 
-///////////////////////////////////////
-// Destructuring Objects
 restaurant.orderDelivery({
   time: '22:30',
   address: 'Via del Sole, 21',
