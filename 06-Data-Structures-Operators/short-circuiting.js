@@ -20,6 +20,27 @@ const restaurant = {
       close: 24,
     },
   },
+
+  order: function (starterIndex, mainIndex) {
+    return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
+  },
+
+  orderDelivery: function ({
+    starterIndex = 1,
+    mainIndex = 0,
+    time = '20:00',
+    address,
+  }) {
+    console.log(
+      `Order recieved! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delived to ${address} at ${time}`
+    );
+  },
+
+  orderPasta: function (ing1, ing2, ing3) {
+    console.log(
+      `Here is your delicious pasta with ${ing1}, ${ing2} and ${ing3}`
+    );
+  },
 };
 
 ///////////////////////////////////////
@@ -27,8 +48,8 @@ const restaurant = {
 
 console.log('---- OR ----');
 // Use ANY data type, return ANY data type, short-circuiting
-console.log(3 || 'Jonas');
-console.log('' || 'Jonas');
+console.log(3 || 'Karan');
+console.log('' || 'Karan');
 console.log(true || 0);
 console.log(undefined || null);
 
@@ -42,10 +63,10 @@ const guests2 = restaurant.numGuests || 10;
 console.log(guests2);
 
 console.log('---- AND ----');
-console.log(0 && 'Jonas');
-console.log(7 && 'Jonas');
+console.log(0 && 'Karan');
+console.log(7 && 'Karan');
 
-console.log('Hello' && 23 && null && 'jonas');
+console.log('Hello' && 23 && null && 'Karan');
 
 // Practical example
 if (restaurant.orderPizza) {
