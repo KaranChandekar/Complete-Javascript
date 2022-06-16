@@ -6,6 +6,8 @@
 const bookings = [];
 
 const flightBooking = function (flightNum, numPassengers, price) {
+  numPassengers = numPassengers || 1;
+  price = price || 1;
   const booking = {
     flightNum,
     numPassengers,
