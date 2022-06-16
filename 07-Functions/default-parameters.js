@@ -3,6 +3,8 @@
 ///////////////////////////////////////
 // Default Parameters
 
+const bookings = [];
+
 const flightBooking = function (flightNum, numPassengers, price) {
   const booking = {
     flightNum,
@@ -10,6 +12,7 @@ const flightBooking = function (flightNum, numPassengers, price) {
     price,
   };
   console.log(booking);
+  bookings.push(booking);
 };
 
-flightBooking();
+flightBooking('LKH123');
