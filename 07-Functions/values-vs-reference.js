@@ -26,3 +26,10 @@ console.log(karan);
 // is the same as doing...
 const flightNum = flight;
 const passenger = karan;
+
+const newPassport = function (person) {
+  person.passport = Math.floor(Math.random() * 100000000000);
+};
+
+newPassport(karan);
+checkIn(flight, karan);
