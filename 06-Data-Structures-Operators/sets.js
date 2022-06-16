@@ -11,7 +11,7 @@ const ordersSet = new Set([
 ]);
 console.log(ordersSet);
 
-console.log(new Set('Jonas'));
+console.log(new Set('Karan'));
 
 console.log(ordersSet.size);
 console.log(ordersSet.has('Pizza'));
@@ -33,4 +33,4 @@ console.log(
   new Set(['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter']).size
 );
 
-console.log(new Set('jonasschmedtmann').size);
+console.log(new Set('karanchandekar').size);
