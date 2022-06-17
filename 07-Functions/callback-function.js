@@ -14,6 +14,7 @@ const upperFirstWord = function (str) {
 console.log(oneWord('Karan Chandekar'));
 console.log(upperFirstWord('Karan Chandekar'));
 
+// Higher-order function
 const transformer = function (str, fn) {
   console.log(`Original string: ${str}`);
   console.log(`Transformed string: ${fn(str)}`);
@@ -23,6 +24,7 @@ const transformer = function (str, fn) {
 transformer('Javascript is the best!', upperFirstWord);
 transformer('Javascript is the best!', oneWord);
 
+// JS uses callback all the time
 const high5 = function () {
   console.log('👋');
 };
