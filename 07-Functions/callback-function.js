@@ -27,3 +27,4 @@ const high5 = function () {
   console.log('👋');
 };
 document.body.addEventListener('click', high5);
+['Karan', 'Alex', 'Martin', 'Tom'].forEach(high5);
