@@ -13,3 +13,7 @@ greeterHey('Steve!');
 
 // is same as...
 greet('Hello')('Karan');
+
+// Challenge
+const greetArr = greeting => name => console.log(`${greeting} ${name}`);
+greetArr('Hii')('Martin');
