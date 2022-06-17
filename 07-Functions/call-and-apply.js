@@ -1,0 +1,3 @@
+'use strict';
+///////////////////////////////////////
+// The call and apply Methods
