@@ -14,3 +14,11 @@ const indigo = {
 };
 indigo.book(123, 'Karan Chandekar');
 indigo.book(456, 'John Wick');
+
+const goAir = {
+  airline: 'go Air',
+  iataCode: 'G8',
+  bookings: [],
+};
+const book = indigo.book;
+book(789, 'Sarah Logan');
