@@ -21,4 +21,11 @@ const goAir = {
   bookings: [],
 };
 const book = indigo.book;
-book(789, 'Sarah Logan');
+// Does NOT work
+// book(789, 'Sarah Logan');
+
+book.call(goAir, 789, 'Sarah Logan');
+console.log(goAir);
+
+book.call(indigo, 789, 'Mary Cooper');
+console.log(indigo);
