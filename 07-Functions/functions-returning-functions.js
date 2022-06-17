@@ -1,0 +1,3 @@
+'use strict';
+///////////////////////////////////////
+// Functions Returning Functions
