@@ -29,3 +29,9 @@ console.log(goAir);
 
 book.call(indigo, 789, 'Mary Cooper');
 console.log(indigo);
+
+// Apply method
+const flightData = [583, 'George Cooper'];
+book.apply(goAir, flightData);
+
+book.call(goAir, ...flightData);
