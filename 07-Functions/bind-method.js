@@ -26,3 +26,6 @@ const book6E = book.bind(indigo);
 const bookG8 = book.bind(goAir);
 
 book6E(45, 'Karan Chandekar');
+
+const book6E67 = book.bind(indigo, 67);
+book6E67('Brian Miller');
