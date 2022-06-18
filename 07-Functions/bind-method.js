@@ -29,3 +29,16 @@ book6E(45, 'Karan Chandekar');
 
 const book6E67 = book.bind(indigo, 67);
 book6E67('Brian Miller');
+
+// With Event Listeners
+indigo.planes = 300;
+indigo.buyPlane = function () {
+  // console.log(this);
+  this.planes++;
+  console.log(this.planes);
+};
+// indigo.buyPlane();
+
+document
+  .querySelector('.buy')
+  .addEventListener('click', indigo.buyPlane.bind(indigo));
