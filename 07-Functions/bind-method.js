@@ -24,3 +24,5 @@ const book = indigo.book;
 
 const book6E = book.bind(indigo);
 const bookG8 = book.bind(goAir);
+
+book6E(45, 'Karan Chandekar');
