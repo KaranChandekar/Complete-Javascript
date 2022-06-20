@@ -50,10 +50,19 @@ const poll = {
     typeof answer === 'number' &&
       answer < this.answers.length &&
       this.answers[answer]++;
-    console.log(this.answers);
+    this.displayResults();
+    this.displayResults('string');
+  },
+  // 3. Display the poll results
+  displayResults(type = 'array') {
+    if (type === 'array') {
+      console.log(this.answers);
+    } else if (type === 'string') {
+      // Poll results are 13, 2, 4, 1
+      console.log(`Poll results are ${this.answers.join(', ')}`);
+    }
   },
 };
-// poll.registerNewAnswer();
 
 // 2.
 document
