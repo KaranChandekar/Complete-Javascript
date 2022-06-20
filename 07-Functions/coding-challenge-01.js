@@ -53,4 +53,9 @@ const poll = {
     console.log(this.answers);
   },
 };
-poll.registerNewAnswer();
+// poll.registerNewAnswer();
+
+// 2.
+document
+  .querySelector('.poll')
+  .addEventListener('click', poll.registerNewAnswer.bind(poll));
