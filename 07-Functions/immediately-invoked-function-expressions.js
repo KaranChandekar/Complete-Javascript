@@ -12,4 +12,4 @@ runOnce();
   const isPrivate = 23;
 })();
 
-console.log(isPrivate);
+// console.log(isPrivate);
