@@ -29,3 +29,6 @@ console.log(arr2);
 const letters = arr.concat(arr2);
 console.log(letters);
 console.log([...arr, ...arr2]);
+
+// Join
+console.log(letters.join(' - '));
