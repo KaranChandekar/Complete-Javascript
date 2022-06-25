@@ -25,5 +25,9 @@ const checkDogs = (dogsJulia, dogsKate) => {
   const dogsJuliaCorr = dogsJulia.slice(1, -2);
   //   console.log(dogsJuliaCorr);
   //   console.log(dogsJulia);
+
+  // 2.
+  const dogs = dogsJuliaCorr.concat(dogsKate);
+  console.log(dogs);
 };
 checkDogs([3, 5, 2, 12, 7], [4, 1, 15, 8, 3]);
