@@ -37,3 +37,7 @@ console.log(movements);
 
 const firstWithdrawal = movements.find(mov => mov < 0);
 console.log(firstWithdrawal);
+
+console.log(accounts);
+const account = accounts.find(acc => (acc.owner = 'Steven Thomas Williams'));
+console.log(account);
