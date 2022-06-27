@@ -99,7 +99,6 @@ const calcDisplaySummary = function (movements) {
     .reduce((acc, deposit) => acc + deposit, 0);
   labelSumInterest.textContent = `${interest}€`;
 };
-calcDisplaySummary(account1.movements);
 
 const createUsernames = function (accs) {
   accs.forEach(acc => {
@@ -137,5 +136,8 @@ btnLogin.addEventListener('click', e => {
 
     // Display balance
     calcDisplayBalance(currentAccount.movements);
+
+    // Display summary
+    calcDisplaySummary(currentAccount.movements);
   }
 });
