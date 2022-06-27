@@ -192,4 +192,6 @@ btnClose.addEventListener('click', e => {
     // Hide UI
     containerApp.style.opacity = 0;
   }
+  // Clear input fields
+  inputCloseUsername.value = inputClosePin.value = '';
 });
