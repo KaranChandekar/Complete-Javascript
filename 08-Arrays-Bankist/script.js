@@ -131,6 +131,10 @@ btnLogin.addEventListener('click', e => {
     }`;
     containerApp.style.opacity = 100;
 
+    // Clear input fields
+    inputLoginUsername.value = inputLoginPin.value = '';
+    inputLoginPin.blur();
+
     // Display movements
     displayMovements(currentAccount.movements);
 
