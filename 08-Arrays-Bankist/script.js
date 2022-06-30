@@ -231,3 +231,8 @@ const bankDepositSum = accounts
   .filter(acc => acc > 0)
   .reduce((sum, cur) => sum + cur, 0);
 console.log(bankDepositSum);
+
+const numDeposits1000 = accounts
+  .flatMap(acc => acc.movements)
+  .filter(mov => mov >= 1000).length;
+console.log(numDeposits1000);
