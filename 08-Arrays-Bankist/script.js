@@ -224,3 +224,10 @@ btnSort.addEventListener('click', e => {
 ///////////////////////////////////////
 ///////////////////////////////////////
 // Array Methods Practice
+
+// 1.
+const bankDepositSum = accounts
+  .flatMap(acc => acc.movements)
+  .filter(acc => acc > 0)
+  .reduce((sum, cur) => sum + cur, 0);
+console.log(bankDepositSum);
