@@ -7,3 +7,7 @@ console.log(23 === 23.0);
 // Binary base 2 - 0 1
 console.log(0.1 + 0.2);
 console.log(0.1 + 0.2 === 0.3);
+
+// Conversion
+console.log(Number('23'));
+console.log(+'23');
