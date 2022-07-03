@@ -30,3 +30,7 @@ console.log(typeof 20n);
 console.log(20n == '20');
 
 console.log(huge + ' is REALLY big!!!');
+
+// Divisions
+console.log(11n / 3n);
+console.log(10 / 3);
