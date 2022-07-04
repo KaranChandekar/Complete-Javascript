@@ -190,8 +190,8 @@ btnLogin.addEventListener('click', function (e) {
     const date = `${now.getDate()}`.padStart(2, 0);
     const month = `${now.getMonth() + 1}`.padStart(2, 0);
     const year = now.getFullYear();
-    const hour = now.getHours();
-    const min = now.getMinutes();
+    const hour = `${now.getHours()}`.padStart(2, 0);
+    const min = `${now.getMinutes()}`.padStart(2, 0);
     labelDate.textContent = `${date}/${month}/${year} ${hour}:${min}`;
 
     // Clear input fields
