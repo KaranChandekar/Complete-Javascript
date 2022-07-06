@@ -118,3 +118,21 @@ document.addEventListener('keydown', function (e) {
 
 // // Don't use
 // logo.clasName = 'jonas';
+
+///////////////////////////////////////
+// Implementing Smooth Scrolling
+
+const btnScrollTo = document.querySelector('.btn--scroll-to');
+const section1 = document.querySelector('#section--1');
+
+btnScrollTo.addEventListener('click', e => {
+  const s1coords = section1.getBoundingClientRect();
+  console.log(s1coords);
+  console.log(e.target.getBoundingClientRect());
+  console.log('Current scroll (X/Y)', window.pageXOffset, window.pageYOffset);
+  console.log(
+    'hight/width viewport',
+    document.documentElement.clientHeight,
+    document.documentElement.clientWidth
+  );
+});
