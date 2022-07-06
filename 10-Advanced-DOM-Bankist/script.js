@@ -150,3 +150,6 @@ btnScrollTo.addEventListener('click', e => {
 
   section1.scrollIntoView({ behavior: 'smooth' });
 });
+
+///////////////////////////////////////
+// Types of Events and Event Handlers
