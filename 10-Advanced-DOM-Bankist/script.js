@@ -135,4 +135,10 @@ btnScrollTo.addEventListener('click', e => {
     document.documentElement.clientHeight,
     document.documentElement.clientWidth
   );
+
+  // Scrolling
+  window.scrollTo(
+    s1coords.left + window.pageXOffset,
+    s1coords.top + window.pageYOffset
+  );
 });
