@@ -142,9 +142,11 @@ btnScrollTo.addEventListener('click', e => {
   //   s1coords.top + window.pageYOffset
   // );
 
-  window.scrollTo({
-    left: s1coords.left + window.pageXOffset,
-    top: s1coords.top + window.pageYOffset,
-    behavior: 'smooth',
-  });
+  // window.scrollTo({
+  //   left: s1coords.left + window.pageXOffset,
+  //   top: s1coords.top + window.pageYOffset,
+  //   behavior: 'smooth',
+  // });
+
+  section1.scrollIntoView({ behavior: 'smooth' });
 });
