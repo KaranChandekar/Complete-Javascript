@@ -157,3 +157,6 @@ const h1 = document.querySelector('h1');
 h1.addEventListener('mouseenter', e =>
   alert('addEventListener: Great! You are reading the heading :D')
 );
+
+h1.onmouseenter = e =>
+  alert('onmouseenter: Great! You just read the heading :D');
