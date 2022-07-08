@@ -216,3 +216,7 @@ document.querySelector('.nav__links').addEventListener('click', function (e) {
 //   console.log(e.target, e.currentTarget);
 //   console.log(e.currentTarget === this);
 // });
+
+///////////////////////////////////////
+// DOM Traversing
+const h1 = document.querySelector('h1');
