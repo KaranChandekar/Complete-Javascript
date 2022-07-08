@@ -162,3 +162,6 @@ btnScrollTo.addEventListener('click', e => {
 
 // // h1.onmouseenter = e =>
 // //   alert('onmouseenter: Great! You just read the heading :D');
+
+///////////////////////////////////////
+// Event Propagation in Practice
