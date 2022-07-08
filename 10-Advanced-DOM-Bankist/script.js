@@ -100,7 +100,11 @@ tabsContainer.addEventListener('click', e => {
   // Gaurd clause
   if (!clicked) return;
 
+  // Remove active classes
   tabs.forEach(t => t.classList.remove('operations__tab--active'));
+  tabsConent.forEach(tc => tc.classList.remove('operations__content--active'));
+
+  // Activate tab
   clicked.classList.add('operations__tab--active');
 
   // Activate content area
