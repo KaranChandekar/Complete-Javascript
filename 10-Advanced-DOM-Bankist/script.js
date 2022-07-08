@@ -100,6 +100,7 @@ tabsContainer.addEventListener('click', e => {
   // Gaurd clause
   if (!clicked) return;
 
+  tabs.forEach(t => t.classList.remove('operations__tab--active'));
   clicked.classList.add('operations__tab--active');
 });
 
