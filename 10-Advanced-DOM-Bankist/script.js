@@ -73,6 +73,20 @@ btnScrollTo.addEventListener('click', e => {
 //   });
 // });
 
+// Same with Event Delegation
+// 1. Add event listener to common parent element
+// 2. Determine what element originated the event
+
+document.querySelector('.nav__links').addEventListener('click', function (e) {
+  e.preventDefault();
+
+  // Matching Strategy
+  if (e.target.classList.contains('nav__link')) {
+    const id = e.target.getAttribute('href');
+    document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
+  }
+});
+
 ///////////////////////////////////////
 ///////////////////////////////////////
 ///////////////////////////////////////
