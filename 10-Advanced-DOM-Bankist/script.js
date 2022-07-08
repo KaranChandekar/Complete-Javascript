@@ -96,6 +96,10 @@ const tabsConent = document.querySelectorAll('.operations__content');
 tabsContainer.addEventListener('click', e => {
   const clicked = e.target.closest('.operations__tab');
   console.log(clicked);
+
+  // Gaurd clause
+  if (!clicked) return;
+
   clicked.classList.add('operations__tab--active');
 });
 
