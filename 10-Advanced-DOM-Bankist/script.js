@@ -64,14 +64,14 @@ btnScrollTo.addEventListener('click', e => {
 ///////////////////////////////////////
 // Page navigation
 
-document.querySelectorAll('.nav__link').forEach(el => {
-  el.addEventListener('click', function (e) {
-    e.preventDefault();
-    const id = this.getAttribute('href');
-    console.log(id);
-    document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
-  });
-});
+// document.querySelectorAll('.nav__link').forEach(el => {
+//   el.addEventListener('click', function (e) {
+//     e.preventDefault();
+//     const id = this.getAttribute('href');
+//     console.log(id);
+//     document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
+//   });
+// });
 
 ///////////////////////////////////////
 ///////////////////////////////////////
