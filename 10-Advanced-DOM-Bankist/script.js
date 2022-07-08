@@ -170,3 +170,21 @@ const randomInt = (min, max) =>
 
 const randomColor = () =>
   `rgb(${randomInt(0, 225)}, ${randomInt(0, 225)}, ${randomInt(0, 225)})`;
+
+document.querySelector('.nav__link').addEventListener('click', function (e) {
+  this.style.backgroundColor = randomColor();
+  console.log(e.target, e.currentTarget);
+  console.log(e.currentTarget === this);
+});
+
+document.querySelector('.nav__links').addEventListener('click', function (e) {
+  this.style.backgroundColor = randomColor();
+  console.log(e.target, e.currentTarget);
+  console.log(e.currentTarget === this);
+});
+
+document.querySelector('.nav').addEventListener('click', function (e) {
+  this.style.backgroundColor = randomColor();
+  console.log(e.target, e.currentTarget);
+  console.log(e.currentTarget === this);
+});
