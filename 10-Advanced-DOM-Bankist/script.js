@@ -165,3 +165,5 @@ btnScrollTo.addEventListener('click', e => {
 
 ///////////////////////////////////////
 // Event Propagation in Practice
+const randomInt = (min, max) =>
+  Math.floor(Math.random() * (max - min + 1) + min);
