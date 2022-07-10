@@ -155,7 +155,7 @@ nav.addEventListener('mouseout', handleHover.bind(1));
 
 const header = document.querySelector('.header');
 const navHeight = nav.getBoundingClientRect().height;
-console.log(navHeight);
+// console.log(navHeight);
 
 const stickyNav = entries => {
   const [entry] = entries;
@@ -170,6 +170,9 @@ const headerObserver = new IntersectionObserver(stickyNav, {
   rootMargin: `-${navHeight}px`,
 });
 headerObserver.observe(header);
+
+///////////////////////////////////////
+// Reveal sections
 
 ///////////////////////////////////////
 ///////////////////////////////////////
