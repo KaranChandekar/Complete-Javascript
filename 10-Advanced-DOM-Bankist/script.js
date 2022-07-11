@@ -252,6 +252,13 @@ document.addEventListener('keydown', e => {
   if (e.key === 'ArrowRight') nextSlide();
 });
 
+dotContainer.addEventListener('click', e => {
+  if (e.target.classList.contains('dots__dot')) {
+    const { slide } = e.target.dataset;
+    goToSlide(slide);
+  }
+});
+
 ///////////////////////////////////////
 ///////////////////////////////////////
 ///////////////////////////////////////
