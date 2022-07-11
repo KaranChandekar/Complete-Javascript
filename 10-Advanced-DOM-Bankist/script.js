@@ -207,9 +207,6 @@ const slider = document.querySelector('.slider');
 let curSlide = 0;
 const maxSlide = slides.length;
 
-slider.style.transform = 'scale(0.3) translateX(-1200px)';
-slider.style.overflow = 'visible';
-
 const goToSlide = slide => {
   slides.forEach((s, i) => {
     s.style.transform = `translateX(${100 * (i - slide)}%)`;
