@@ -204,6 +204,16 @@ const slides = document.querySelectorAll('.slide');
 const btnLeft = document.querySelector('.slider__btn--left');
 const btnRight = document.querySelector('.slider__btn--right');
 const slider = document.querySelector('.slider');
+let curSlide = 0;
+const maxSlide = slides.length;
+
+slider.style.transform = 'scale(0.3) translateX(-1200px)';
+slider.style.overflow = 'visible';
+
+slides.forEach((s, i) => {
+  s.style.transform = `translateX(${100 * i}%)`;
+});
+// 0%, 100%, 200%, 300%
 
 ///////////////////////////////////////
 ///////////////////////////////////////
