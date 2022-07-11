@@ -210,23 +210,24 @@ const maxSlide = slides.length;
 slider.style.transform = 'scale(0.3) translateX(-1200px)';
 slider.style.overflow = 'visible';
 
-slides.forEach((s, i) => {
-  s.style.transform = `translateX(${100 * i}%)`;
-});
-// 0%, 100%, 200%, 300%
+const goToSlide = slide => {
+  slides.forEach((s, i) => {
+    s.style.transform = `translateX(${100 * (i - slide)}%)`;
+  });
+};
+goToSlide(0);
 
 // Next slide
-btnRight.addEventListener('click', () => {
+const nextSlide = () => {
   if (curSlide === maxSlide - 1) {
     curSlide = 0;
   } else {
     curSlide++;
   }
-  slides.forEach((s, i) => {
-    s.style.transform = `translateX(${100 * (i - curSlide)}%)`;
-  });
-});
-// curSlide = 1: -100%, 0%, 100%, 200%
+  goToSlide(curSlide);
+};
+
+btnRight.addEventListener('click', nextSlide);
 
 ///////////////////////////////////////
 ///////////////////////////////////////
