@@ -204,8 +204,19 @@ const slides = document.querySelectorAll('.slide');
 const btnLeft = document.querySelector('.slider__btn--left');
 const btnRight = document.querySelector('.slider__btn--right');
 const slider = document.querySelector('.slider');
+const dotContainer = document.querySelector('.dots');
 let curSlide = 0;
 const maxSlide = slides.length;
+
+const createDots = () => {
+  slides.forEach((_, i) => {
+    dotContainer.insertAdjacentHTML(
+      'beforeend',
+      `<button class="dots__dot dots__dot--active" data-slide="${i}"></button>`
+    );
+  });
+};
+createDots();
 
 const goToSlide = slide => {
   slides.forEach((s, i) => {
