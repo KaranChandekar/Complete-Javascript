@@ -215,6 +215,19 @@ slides.forEach((s, i) => {
 });
 // 0%, 100%, 200%, 300%
 
+// Next slide
+btnRight.addEventListener('click', () => {
+  if (curSlide === maxSlide - 1) {
+    curSlide = 0;
+  } else {
+    curSlide++;
+  }
+  slides.forEach((s, i) => {
+    s.style.transform = `translateX(${100 * (i - curSlide)}%)`;
+  });
+});
+// curSlide = 1: -100%, 0%, 100%, 200%
+
 ///////////////////////////////////////
 ///////////////////////////////////////
 ///////////////////////////////////////
