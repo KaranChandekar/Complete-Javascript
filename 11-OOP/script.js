@@ -19,3 +19,5 @@ console.log(karan);
 const jonas = new Person('jonas', 1991);
 const matilda = new Person('matilda', 1995);
 console.log(jonas, matilda);
+
+console.log(karan instanceof Person);
