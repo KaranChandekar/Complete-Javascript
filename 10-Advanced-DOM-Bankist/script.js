@@ -469,3 +469,6 @@ slider();
 
 ///////////////////////////////////////
 // Lifecycle DOM Events
+document.addEventListener('DOMContentLoaded', e => {
+  console.log('HTML parsed and DOM tree built!', e);
+});
