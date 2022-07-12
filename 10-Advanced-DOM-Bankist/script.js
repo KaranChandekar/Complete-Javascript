@@ -466,3 +466,6 @@ slider();
 // };
 // const observer = new IntersectionObserver(obsCallback, obsOptions);
 // observer.observe(section1);
+
+///////////////////////////////////////
+// Lifecycle DOM Events
