@@ -6,6 +6,11 @@ const Person = function (firstName, birthYear) {
   // Instance properties
   this.firstName = firstName;
   this.birthYear = birthYear;
+
+  // Never do this
+  // this.calcAge = function () {
+  //   console.log(2022 - this.birthYear);
+  // };
 };
 
 const karan = new Person('Karan', 2003);
