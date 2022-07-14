@@ -17,7 +17,15 @@ class PersonCl {
   calcAge() {
     console.log(2022 - this.birthYear);
   }
+
+  // Static method
+  static hey() {
+    console.log('Hey there 👋');
+    console.log(this);
+  }
 }
+
+PersonCl.hey();
 
 const amanda = new PersonCl('Amanda', 1998);
 console.log(amanda);
@@ -33,3 +41,27 @@ amanda.greet();
 // 1. Classes are NOT hoisted
 // 2. Classes are first-class citizes
 // 3. Classes are executed in strict mode
+
+///////////////////////////////////////
+// Object.create
+const PersonProto = {
+  calcAge() {
+    console.log(2022 - this.birthYear);
+  },
+
+  init(firstName, birthYear) {
+    this.firstName = firstName;
+    this.birthYear = birthYear;
+  },
+};
+const james = Object.create(PersonProto);
+console.log(james);
+james.birthYear = 2002;
+james.calcAge();
+
+const sarah = Object.create(PersonProto);
+
+console.log(james.__proto__ === PersonProto);
+
+sarah.init('Sarah', 2003);
+sarah.calcAge();
