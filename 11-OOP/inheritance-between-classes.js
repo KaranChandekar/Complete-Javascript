@@ -13,17 +13,17 @@ Person.prototype.calcAge = function () {
 };
 
 const Student = function (firstName, birthYear, course) {
-  Person.call = (this, firstName, birthYear);
+  Person.call(this, firstName, birthYear);
   this.course = course;
 };
-console.log(Student);
+
+// Linking prototypes
+Student.prototype = Object.create(Person.prototype);
 
 Student.prototype.introduce = function () {
-  console.log(
-    `Hey there! My name is ${this.firstName} and persuing ${this.course}`
-  );
+  console.log(`My name is ${this.firstName} and I study ${this.course}`);
 };
 
-const mike = new Student('Mike', 2003, 'Computer Science');
-console.log(mike);
+const mike = new Student('Mike', 2020, 'Computer Science');
 mike.introduce();
+mike.calcAge();
