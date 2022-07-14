@@ -42,6 +42,8 @@ amanda.greet();
 // 2. Classes are first-class citizes
 // 3. Classes are executed in strict mode
 
+///////////////////////////////////////
+// Object.create
 const PersonProto = {
   calcAge() {
     console.log(2022 - this.birthYear);
