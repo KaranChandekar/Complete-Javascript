@@ -26,3 +26,11 @@ const matilda = new Person('matilda', 1995);
 console.log(jonas, matilda);
 
 console.log(karan instanceof Person);
+
+// Static method
+Person.hey = function () {
+  console.log('Hey there 👋');
+  console.log(this);
+};
+
+Person.hey();
