@@ -44,6 +44,14 @@ if (navigator.geolocation)
 
 form.addEventListener('submit', function (e) {
   e.preventDefault();
+
+  // Clear input fields
+  inputCadence.value =
+    inputDistance.value =
+    inputDuration.value =
+    inputElevation.value =
+      '';
+
   // Display marker
   console.log(mapEvent);
   const { lat, lng } = mapEvent.latlng;
