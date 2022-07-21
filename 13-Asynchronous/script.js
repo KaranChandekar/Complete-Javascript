@@ -106,3 +106,10 @@ const renderCountry = function (data, className = '') {
 //     }, 1000);
 //   }, 1000);
 // }, 1000);
+
+///////////////////////////////////////
+// Consuming Promises
+
+//   const request = new XMLHttpRequest();
+//   request.open('GET', `https://restcountries.com/v3.1/name/${country}`);
+//   request.send();
