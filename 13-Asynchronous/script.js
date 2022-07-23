@@ -268,6 +268,7 @@ Promise.resolve('Resolved promise 2').then(res => {
 console.log('Test end');
 */
 
+/*
 ///////////////////////////////////////
 // Building a Simple Promise
 const lotteryPromise = new Promise((resolve, reject) => {
@@ -319,3 +320,4 @@ wait(1)
 
 Promise.resolve('abc').then(x => console.log(x));
 Promise.reject(new Error('Problem!')).catch(x => console.error(x));
+*/
