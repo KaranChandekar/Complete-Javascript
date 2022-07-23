@@ -270,3 +270,14 @@ console.log('Test end');
 
 ///////////////////////////////////////
 // Building a Simple Promise
+const lotteryPromise = new Promise((resolve, reject) => {
+  console.log('Lotter draw is happening 🔮');
+  setTimeout(() => {
+    if (Math.random() >= 0.5) {
+      resolve('You WIN 💰');
+    } else {
+      reject('You lost your money 💩');
+    }
+  }, 2000);
+});
+lotteryPromise.then(res => console.log(res)).catch(rej => console.error(rej));
