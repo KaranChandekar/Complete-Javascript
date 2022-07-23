@@ -253,6 +253,7 @@ whereAmI(19.037, 72.873);
 whereAmI(-33.933, 18.474);
 */
 
+/*
 ///////////////////////////////////////
 // The Event Loop in Practice
 console.log('Test start');
@@ -265,3 +266,4 @@ Promise.resolve('Resolved promise 2').then(res => {
 });
 
 console.log('Test end');
+*/
