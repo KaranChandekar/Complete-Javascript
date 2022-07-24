@@ -443,6 +443,7 @@ createImage('img/img-1.jpg')
 // Consuming Promises with Async/Await
 // Error Handling With try...catch
 
+/*
 const getPosition = function () {
   return new Promise(function (resolve, reject) {
     navigator.geolocation.getCurrentPosition(resolve, reject);
@@ -489,3 +490,4 @@ console.log('FIRST');
 // } catch (err) {
 //   alert(err.message);
 // }
+*/
