@@ -549,3 +549,6 @@ console.log('1: Will get location');
   console.log('3: Finished getting location');
 })();
 */
+
+///////////////////////////////////////
+// Running Promises in Parallel
