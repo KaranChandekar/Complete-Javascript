@@ -573,3 +573,6 @@ const get3Countries = async function (c1, c2, c3) {
 };
 get3Countries('india', 'america', 'russia');
 */
+
+///////////////////////////////////////
+// Other Promise Combinators: race, allSettled and any
