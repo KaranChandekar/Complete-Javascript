@@ -577,6 +577,7 @@ get3Countries('india', 'america', 'russia');
 ///////////////////////////////////////
 // Other Promise Combinators: race, allSettled and any
 
+/*
 // Promise.race
 (async function () {
   const res = await Promise.race([
@@ -624,3 +625,4 @@ Promise.any([
 ])
   .then(res => console.log(res))
   .catch(err => console.error(err));
+*/
