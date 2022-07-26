@@ -1,5 +1,7 @@
-// Importing module
+///////////////////////////////////////
+// Exporting and Importing in ES6 Modules
 
+// Importing module
 // import { addToCart, totalPrice as price, tq } from './shoppingCart.js';
 // addToCart('bread', 4);
 // console.log(price, tq);
