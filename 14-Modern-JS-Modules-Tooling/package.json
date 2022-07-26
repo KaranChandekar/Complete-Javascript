@@ -10,8 +10,10 @@
   "author": "karan",
   "license": "ISC",
   "dependencies": {
+    "core-js": "^3.24.0",
     "leaflet": "^1.8.0",
-    "lodash-es": "^4.17.21"
+    "lodash-es": "^4.17.21",
+    "regenerator-runtime": "^0.13.9"
   },
   "devDependencies": {
     "parcel": "^2.6.2"
