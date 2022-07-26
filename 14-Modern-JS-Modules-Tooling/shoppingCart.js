@@ -12,3 +12,8 @@ export const addToCart = function (product, quantity) {
 const totalPrice = 247;
 const totalQuantity = 34;
 export { totalPrice, totalQuantity as tq };
+
+export default function (product, quantity) {
+  cart.push({ product, quantity });
+  console.log(`${quantity} ${product} added to cart`);
+}
