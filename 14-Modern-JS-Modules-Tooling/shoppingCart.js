@@ -1,3 +1,6 @@
+///////////////////////////////////////
+// Exporting and Importing in ES6 Modules
+
 // Exporting module
 console.log('Exporting module');
 
