@@ -62,7 +62,7 @@ console.log(ShoppingCart2);
 
 ///////////////////////////////////////
 // CommonJS Modules
-
+/*
 // Export
 export.addToCart = function (product, quantity) {
     cart.push({ product, quantity });
@@ -73,3 +73,4 @@ export.addToCart = function (product, quantity) {
 
 // Import
 const {addToCart} = require('./shoppingCart.js')
+*/
