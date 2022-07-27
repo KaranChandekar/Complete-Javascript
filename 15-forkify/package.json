@@ -2,7 +2,7 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "Recipe application",
-  "main": "index.html",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
@@ -10,6 +10,7 @@
   "author": "Karan Chandekar",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
     "parcel": "^2.0.0-rc.0",
     "sass": "^1.26.10"
   }
