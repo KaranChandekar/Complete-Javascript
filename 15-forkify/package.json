@@ -8,5 +8,8 @@
     "build": "parcel build index.html"
   },
   "author": "Karan Chandekar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  }
 }
