@@ -164,3 +164,36 @@ Section contains all about Functions and Function methods in deep
 - Closures
 - More Closure Examples
 - Coding Challenge 02
+
+<hr>
+
+## 08. Working With Arrays
+
+Section contains all about Arrays in Javascript. Created a project called Array Bankist
+
+- Simple Array Methods
+- Looping Arrays-forEach
+- forEach with Maps and Sets
+
+### PROJECT_Bankist_App
+
+- Creating DOM Elements
+- Coding Challenge 01
+- Data Transformations_map, filter, reduce
+- The map Method
+- The filter Method
+- The reduce Method
+- Coding Challenge 02
+- The Magic of Chaining Methods
+- Coding Challenge 03
+- The find Method
+- Implementing Login
+- Implementing Transfers
+- The findIndex Method
+- some and every
+- flat and flatMap
+- Sorting Arrays
+- More Ways of Creating and Filling Arrays
+- Summary
+- Array Methods Practice
+- Coding Challenge 04
