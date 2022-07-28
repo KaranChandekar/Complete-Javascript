@@ -116,3 +116,32 @@ Section contains all about overview on how actually Javascript works behind the 
 - Regular Functions vs. Arrow Functions
 - Primitive vs. Objects (Primitive vs. Reference Types
 - Primitives vs. Objects in Practice
+
+<hr>
+
+## 06. Data Structures, Modern Operators and strings
+
+Section contains Data Structure used in Javascript. An indepth overview on how modern operators and string works in practice
+
+- Destructuring Arrays
+- Destructuring Objects
+- Spread operator (...)
+- Rest Patterns and Parameters
+- Short Circuiting
+- The Nullish Coalescing Operator
+- Coding Challenge 01
+- Looping Arrays_The for-Of Loop
+- Enhanced Object Literals
+- Optional chaining
+- Looping Objects_Object Keys, Values and Entries
+- Coding Challenge 02
+- Sets
+- Maps_Fundamentals
+- Maps_Iteration
+- summary_Which Data Structures Use
+- Coding Challenge 03
+- Working with Strings part 1
+- Working with Strings part 2
+- Working with Strings part 3
+- Coding Challenge 04
+- String Methods Practice
