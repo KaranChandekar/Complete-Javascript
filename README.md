@@ -336,3 +336,31 @@ Section contains an high level overview of modern Javascript development. Using 
 - Fix Some Bad Code_Part 1
 - Declarative and Functional JavaScript Principles
 - Let's Fix Some Bad Code_Part 2
+
+<hr>
+
+## 15. Forkify App_Building a Modern Application
+
+Section contains a project called Forkify App. It's a Modern Application created with all the advanced topics which I learnt in this Course
+
+### PROJECT_Forkify App
+
+- Project Overview and Planning (I)
+- Loading a Recipe from API
+- Rendering the Recipe
+- Listening For load and hashchange Events
+- The MVC Architecture
+- Refactoring for MVC
+- Helpers and Configuration Files
+- Event Handlers in MVC
+- Implementing Error and Success Messages
+- Implementing Search and Results
+- Implementing Pagination
+- Project Planning (II)
+- Updating Recipe servings
+- Developing a DOM Updating Algorithm
+- Implementing Bookmarks
+- Storing Bookmarks with localStorage
+- Project Planning (III)
+- Uploading a New Recipe
+- Wrapping Up_Final Considerations
