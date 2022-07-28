@@ -242,3 +242,30 @@ Section contains brief information about DOM in advance and Events. Created a Ba
 - Building a Slider Component
 - Lifecycle DOM Events
 - Efficient Script Loading defer and async
+
+<hr>
+
+## 11. Object-Oriented Programming (OOP)
+
+Overview:
+
+- What is OOP
+- OOP in JavaScript
+- Constructor Functions and the new Operator
+- Prototypes
+- Prototypal Inheritence and The Prototype Chain
+- Prototypal Inheritence on Built in objects
+- Coding Challenge 01
+- ES6 Classes
+- Setters and Getters
+- Static Methods
+- object.create
+- Coding Challenge 02
+- Inheritance between Classes_Constructor Function
+- Inheritance between Classes_ES6 Classes
+- Inheritance between Classes_Object.create
+- Another Class Examples
+- Encapsulation_Protected Properties and Methods
+- Chaining Methods
+- ES6 Classes Summary
+- Coding Challenge 04
