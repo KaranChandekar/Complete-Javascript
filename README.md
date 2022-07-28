@@ -269,3 +269,24 @@ Overview:
 - Chaining Methods
 - ES6 Classes Summary
 - Coding Challenge 04
+
+<hr>
+
+## 12. Mapty App_OOP, Geolocation, Extenal Libraries, and More
+
+Section contains advanced topics like Geolocation, External libraries and lot more. Created a real world project called Mapty App
+
+### PROJECT_Mapty App
+
+- How to Plan a Web Project
+- Using the Geolocation API
+- Displaying a Map Using Leaflet Library
+- Displaying a Map Marker
+- Rendering Workout Input Form
+- Project Architecture
+- Refactoring for Project Architecture
+- Managing Workout Data_Creating Classes
+- Creating a New Workout
+- Rendering Workouts
+- Move to Marker On Click
+- Working with localStorage
