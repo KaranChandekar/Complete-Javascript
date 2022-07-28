@@ -97,3 +97,22 @@ Section Contains about how javascript works on Browser and DOM and Basics Events
 - Switching the Active Player
 - Holding Current Score
 - Resetting the Game
+
+<hr>
+
+## 05. How JavaScript Works Behind the Scenes
+
+Section contains all about overview on how actually Javascript works behind the scenes
+
+- An High-Level Overview of JavaScript
+- The JavaScript Engine and Runtime
+- Execution Contexts and The Call Stack
+- Scope and The Scope Chain
+- Scoping in Practice
+- Variable Environment Hoisting and The TDZ (Temporal DeadZone)
+- Hoisting and TDZ in Practice
+- The this Keyword
+- The this Keyword in Practice
+- Regular Functions vs. Arrow Functions
+- Primitive vs. Objects (Primitive vs. Reference Types
+- Primitives vs. Objects in Practice
