@@ -33,6 +33,9 @@ const showRecipe = async function () {
   try {
     const id = window.location.hash.slice(1);
     console.log(id);
+
+    if (!id) return;
+
     // 1) Loading recipe
     renderSpinner(recipeContainer);
     const res = await fetch(
