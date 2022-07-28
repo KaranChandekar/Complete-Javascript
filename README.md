@@ -215,3 +215,30 @@ Section contains advanced properties like numbers, dates, timers and etc.
 - Internationalizing Numbers (Intl)
 - Timers_setTimeOut and setInterval
 - Implementing a Countdown Timer in Bankist App
+
+<hr>
+
+## 10. Advanced DOM And Events
+
+Section contains brief information about DOM in advance and Events. Created a Bankist website with it
+
+### PROJECT_Bankist_Website
+
+- How the DOM Really Works
+- Selecting, Creating and Deleting Elements
+- Styles, Attributes and Classes
+- Implementing Smooth Scrolling
+- Types of Events and Event Handlers
+- Event Propagation_Bubbling and Capturing
+- Event Propagation in Practice
+- Event Delegation
+- DOM Traversing
+- Building a Tabbed Component
+- Passing Arguments to Event Handlers
+- Implementing a Sticky Navigation
+- Intersection Observer API
+- Revealing Elements on Scroll
+- Lazy Loading Images
+- Building a Slider Component
+- Lifecycle DOM Events
+- Efficient Script Loading defer and async
