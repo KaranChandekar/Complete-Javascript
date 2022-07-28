@@ -318,3 +318,21 @@ Section contains an hight level overview of Asynchronous JavaScript. Promises, A
 - Running Promises in Parallel
 - Other Promise Combinators_race, allSettled and any
 - Coding Challenge 03
+
+<hr>
+
+## 14. Modern JavaScript Development
+
+Section contains an high level overview of modern Javascript development. Using Mudules, Tooling and Functional
+
+- An Overview of Modern JavaScript Development
+- An Overview of Modules in JavaScript
+- Importing and Exporting in ES6 Modules
+- The Module Pattern
+- Common JS Modules
+- Bundling with Parcel and NPM Scripts
+- Configuring Babel and Polyfilling
+- Review_Writing Clean and Modern JavaScript
+- Fix Some Bad Code_Part 1
+- Declarative and Functional JavaScript Principles
+- Let's Fix Some Bad Code_Part 2
