@@ -145,3 +145,22 @@ Section contains Data Structure used in Javascript. An indepth overview on how m
 - Working with Strings part 3
 - Coding Challenge 04
 - String Methods Practice
+
+<hr>
+
+## 07. A Closer Look at Functions
+
+Section contains all about Functions and Function methods in deep
+
+- Default Parameters
+- How Passing Arguments Works_Values vs. Reference
+- First-Class and Higher-Order Functions
+- Functions Accepting Callback Functions
+- Functions Returning Functions
+- The call and apply Methods
+- The bind Method
+- Coding Challenge 01
+- Immediately Invoked Function Expressions (IIFE)
+- Closures
+- More Closure Examples
+- Coding Challenge 02
