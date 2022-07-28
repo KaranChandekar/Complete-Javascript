@@ -197,3 +197,21 @@ Section contains all about Arrays in Javascript. Created a project called Array 
 - Summary
 - Array Methods Practice
 - Coding Challenge 04
+
+<hr>
+
+## 09. Numbers, Dates, Intl and Timers
+
+Section contains advanced properties like numbers, dates, timers and etc.
+
+- Converting and Checking Numbers
+- Math and Rounding
+- The Remainder Operator
+- Working with BigInt
+- Creating Dates
+- Adding Dates to Bankist_App
+- Operations with Dates
+- Internationalizing Dates (Intl)
+- Internationalizing Numbers (Intl)
+- Timers_setTimeOut and setInterval
+- Implementing a Countdown Timer in Bankist App
