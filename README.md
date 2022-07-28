@@ -68,3 +68,32 @@ Section contains Skills required as a developer and Editor setup
 - Debugging (Fixing Errors)
 - Debugging with the Console and Breakpoint
 - Coding Challenge 01
+
+<hr>
+
+## 04. JavaScript in the Browser_DOM and Events Fundamentals
+
+Section Contains about how javascript works on Browser and DOM and Basics Events Fundamentals. Created 3 simple projects as follows
+
+### PROJECT 01_Guess My Number
+
+- DOM and DOM Manipulation
+- Selecting and Manipulating Elements
+- Handling Click Events
+- Implementing the Game Logic
+- Manipulating CSS Style
+- Coding Challenge 01
+- Implementing Highscores
+- Refactoring Code_The DRY Principle
+
+### PROJECT 02_Modal Window
+
+- Working with Classes
+- Handling an_Esc_Keyprerss Event
+
+### PROJECt 03_Pig Game
+
+- Rolling the Dice
+- Switching the Active Player
+- Holding Current Score
+- Resetting the Game
