@@ -54,3 +54,17 @@ Section contains basic Javascript
 - Looping Backwards & Loops in Loop
 - The While Loop
 - Coding Challenge 04
+
+<hr>
+
+## 03. Developer Skills
+
+Section contains Skills required as a developer and Editor setup
+
+- Setting up Prettier and VS Code
+- Installing Node.js
+- Setting up Dev Environment
+- Using Google, StackOverflow and MDN
+- Debugging (Fixing Errors)
+- Debugging with the Console and Breakpoint
+- Coding Challenge 01
