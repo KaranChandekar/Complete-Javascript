@@ -290,3 +290,31 @@ Section contains advanced topics like Geolocation, External libraries and lot mo
 - Rendering Workouts
 - Move to Marker On Click
 - Working with localStorage
+
+<hr>
+
+## 13. Asynchronous JavaScript
+
+Section contains an hight level overview of Asynchronous JavaScript. Promises, Async-Await and AJAX
+
+- Asynchronous Javascript, AJAX an APIs
+- First AJAX Call_XMLHttpRequest
+- How the Web Works
+- CallBack Hell
+- Promises and the Fetch API
+- Consuming Promises
+- Chaining Promises
+- Handling Rejected Promises
+- Throwing Errors Manually
+- Coding Challenge 01
+- Asynchronous Behind the Scenes_The Event Loop
+- The Event Loop in Practice
+- Building a Simple Promise
+- Promisifying the Geolocation API
+- Coding Challenge 02
+- Consuming Promises with Async_Await
+- Error Handling with try...catch
+- Returning Values from Async Functions
+- Running Promises in Parallel
+- Other Promise Combinators_race, allSettled and any
+- Coding Challenge 03
