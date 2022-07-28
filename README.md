@@ -28,3 +28,29 @@ Section contains basic Javascript
 - Statements and Expressions
 - The Conditional (Ternary) Operator
 - Coding Challenge 04
+
+<hr>
+
+## 02. Javascript Fundamentals part II
+
+Section contains basic Javascript
+
+- Strict Mode
+- Functions
+- Function Declaration vs. Expression
+- Arrow Functions
+- Functions Calling Other Functions
+- Reviewing Functions
+- Coding Challenge 01
+- Introduction to Arrays
+- Array Methods
+- Coding Challenge 02
+- Introduction to Objects
+- Dot vs. and Bracket Notation
+- Object Methods
+- Coding Challenge 03
+- Iteration_The For Loop
+- Break and Continue
+- Looping Backwards & Loops in Loop
+- The While Loop
+- Coding Challenge 04
