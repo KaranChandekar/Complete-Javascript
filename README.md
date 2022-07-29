@@ -75,7 +75,7 @@ Section contains Skills required as a developer and Editor setup
 
 Section Contains about how javascript works on Browser and DOM and Basics Events Fundamentals. Created 3 simple projects as follows
 
-### PROJECT 01_Guess My Number
+### PROJECT 01_ [Guess My Number](https://app.netlify.com/sites/guessthenumber-v2)
 
 - DOM and DOM Manipulation
 - Selecting and Manipulating Elements
@@ -86,12 +86,12 @@ Section Contains about how javascript works on Browser and DOM and Basics Events
 - Implementing Highscores
 - Refactoring Code_The DRY Principle
 
-### PROJECT 02_Modal Window
+### PROJECT 02_ [Modal Window](https://modal-window-karanchandekar.vercel.app/)
 
 - Working with Classes
 - Handling an_Esc_Keyprerss Event
 
-### PROJECt 03_Pig Game
+### PROJECt 03_ [Pig Game](https://pig-game-v2.netlify.app)
 
 - Rolling the Dice
 - Switching the Active Player
@@ -175,7 +175,7 @@ Section contains all about Arrays in Javascript. Created a project called Array 
 - Looping Arrays-forEach
 - forEach with Maps and Sets
 
-### PROJECT_Bankist_App
+### PROJECT_ [Bankist](https://bankist.netlify.app/) (Fake "log in" with user `js` and PIN `1111`)
 
 - Creating DOM Elements
 - Coding Challenge 01
@@ -222,7 +222,7 @@ Section contains advanced properties like numbers, dates, timers and etc.
 
 Section contains brief information about DOM in advance and Events. Created a Bankist website with it
 
-### PROJECT_Bankist_Website
+### PROJECT_ [Bankist Site](https://bankist-dom.netlify.app/)
 
 - How the DOM Really Works
 - Selecting, Creating and Deleting Elements
@@ -276,7 +276,7 @@ Overview:
 
 Section contains advanced topics like Geolocation, External libraries and lot more. Created a real world project called Mapty App
 
-### PROJECT_Mapty App
+### PROJECT_ [Mapty](https://mapty.netlify.app/)
 
 - How to Plan a Web Project
 - Using the Geolocation API
@@ -343,7 +343,7 @@ Section contains an high level overview of modern Javascript development. Using 
 
 Section contains a project called Forkify App. It's a Modern Application created with all the advanced topics which I learnt in this Course
 
-### PROJECT_Forkify App
+### PROJECT_ [forkify](https://forkify-v2.netlify.app/)
 
 - Project Overview and Planning (I)
 - Loading a Recipe from API
